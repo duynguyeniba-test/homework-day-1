@@ -1,0 +1,28 @@
+a. git init
+ - Local:
+ - Working Directory:
+ - Staging:
+ - Repository:
+ > Working Directory is empty
+
+b. Tạo 3 file: file1.txt, file2.txt, oops/file3.txt
+ - Local:
+ - Working Directory: file1.txt, file2.txt, oops/file3.txt
+ - Staging:
+ - Repository:
+
+c. Thêm file .gitignore và thêm 2 dòng:
+ - file1.txt
+ - oops/
+
+d. git add .
+ - Local:
+ - Working Directory: file1.txt (ignored), oops/file3.txt (ignored)
+ - Staging: file2.txt, .gitignore
+ - Repository:
+
+e. git commit -m"init project"
+ - Local:
+ - Working Directory: file1.txt (ignored), oops/file3.txt (ignored)
+ - Staging:
+ - Repository: file2.txt, .gitignore

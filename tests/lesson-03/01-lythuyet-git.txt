@@ -1,0 +1,9 @@
+git commit --amend: Dùng để thêm các file mới bị sót vào Repository cho commit hiện tại.
+
+git commit --amend -m”<message>”: Dùng để sửa message cho commmit hiện tại nếu cần.
+
+git restore --staged <file_name>: Dùng để move các files đang ở Staging area trở về Working Directory trong 1 commit.
+Lưu ý: để sử dụng lệnh này, phải có ít nhất 1 commit được tạo.
+
+git reset HEAD~1: Dùng để remove các file từ commit gần nhất trở lại Working Directory để chỉnh sửa lại các file mà đã add vào Repository area.
+Lưu ý: Để sử dụng lệnh này, cần có ít nhất 2 commits và commit được remove sẽ là commit gần nhất (commit đầu tiên không thể bị reset, nếu muốn, phải xóa thư mục .git rồi tạo init lại)

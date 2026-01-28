@@ -24,7 +24,11 @@
 // console.log(`${9} * ${i} = ${result7}`);
 // }
 
-for (let i = 1; i <= 99; i++) {             //Cau 3
-    if (i % 2 === 1)
-        console.log(i);
-    }
+// for (let i = 1; i <= 99; i++) {             //Cau 3
+//     if (i % 2 === 1)
+//         console.log(i);
+//     }
+                                            //Cau 4
+for (let i = 1; i <= 10; i++) {
+    console.log(`user${i}@example.com`);
+}

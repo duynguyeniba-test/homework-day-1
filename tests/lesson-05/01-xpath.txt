@@ -2,11 +2,11 @@
 Bài 1.
 a. /html/body/div/div/form/input[@id='fullname']
 b. /html/body/div/div/form/button[@type="submit"]
-c. /html/body/div/table/tbody/tr
+c. /html/body/div/table/tbody/tr[1]
 
 Bài 2.
 a. //input[@placeholder=`Số điện thoại`]
-b. //table[@id=`resultTable`]//tbody/tr[2]/td[3]
+b. //table[@id=`resultTable`]//tbody/tr[2]/td[2]
 c. //table[@id='resultTable']/tbody/tr[3]/td[3]
 d. //button[@class='btn-register']
-e. //table[@resultTable]
+e. //table[@id="resultTable"]

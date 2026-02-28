@@ -13,8 +13,11 @@ test("Demo test 02", async ({ page }) => {
         await page.locator('//button[@data-product-id="1"]').dblclick();
 
         // Product 2
-        await page.locator('//button[@data-product-id="2"]').dblclick();
-        await page.locator('//button[@data-product-id="2"]').click();
+        // await page.locator('//button[@data-product-id="2"]').dblclick();
+        // await page.locator('//button[@data-product-id="2"]').click();
+        
+        // Product 2 - bài sửa của Linh:
+        await page.locator('//button[@data-product-id="2"]').click({ clickCount: 3 });
 
         // Product 3
         await page.locator('//button[@data-product-id="3"]').click();

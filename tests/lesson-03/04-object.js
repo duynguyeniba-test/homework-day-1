@@ -9,15 +9,15 @@
 
 //Cau 2
 
-// // const person = {
-// //     name: "Duy",
-// //     'address': {
-// //         street: "Ngo Gia Tu",
-// //         city: "Sai Gon",
-// //         country: "Vietnam"
-// //     }
-// // };
-// // console.log(person.address ["street"]);
+// const person = {
+//     name: "Duy",
+//     'address': {
+//         street: "Ngo Gia Tu",
+//         city: "Sai Gon",
+//         country: "Vietnam"
+//     }
+// };
+// console.log(person.address["street"]);
 
 //Cau 3
 
@@ -52,9 +52,9 @@
 // //Cau 6
 // const employee = {
 //     'name': "DUY",
-//     'Age': 69
+//     'age': 69
 // };
-// delete employee.Age;
+// delete employee.age;
 // console.log(employee);
 
 let school = {

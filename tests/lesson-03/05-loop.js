@@ -23,12 +23,28 @@
 // console.log(`${8} * ${i} = ${result6}`);
 // console.log(`${9} * ${i} = ${result7}`);
 // }
+//                                                 //Bo sung cau 2
+// for (let i = 1; i <= 9; i++) {
+//     console.log(`Bang cuu chuong ${i}`);
+//     for (let a = 1; a <= 10; a++) {
+//         console.log(`${i} x ${a} = ${i * a}`);
+//     }
+// }
 
 // for (let i = 1; i <= 99; i++) {             //Cau 3
-//     if (i % 2 === 1)
-//         console.log(i);
+//     if (i % 2 !== 0)
+//         console.log(arr[i]);
 //     }
-                                            //Cau 4
-for (let i = 1; i <= 10; i++) {
-    console.log(`user${i}@example.com`);
+
+let oddNumbers = [];                           //Sua bai cau 3
+for (let i = 1; i <= 99; i++) {
+    if (i % 2 !== 0) {
+        oddNumbers.push(i);
+    }
 }
+console.log(oddNumbers);
+
+//                                             //Cau 4
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`user${i}@example.com`);
+// }

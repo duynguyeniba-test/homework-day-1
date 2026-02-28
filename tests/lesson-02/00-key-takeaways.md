@@ -99,6 +99,7 @@
                 true === 1 // false (khác kiểu)
                 false === 0 // false (khác kiểu)
                 5 === 5 // true (cùng kiểu, cùng giá trị)
+                 
     * So sánh không bằng != và !== :
         * So sánh !=
                 5 != "5" // false (chuyển string thành number)
@@ -126,6 +127,7 @@
                 const isOfficial = true;
                 const receive13 = isMoreThan6 || isOfficial;
                 const receive14 = isMoreThan6 && isOfficial;
+
     * Toán tử một ngôi là kiểu toán tử chỉ cần một toán hạng để thực hiện.
 
         *Prefix: toán tử nằm phía trước - tăng trước, trả về sau

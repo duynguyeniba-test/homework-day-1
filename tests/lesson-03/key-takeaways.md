@@ -33,7 +33,7 @@
             - Tạo nhánh mới: git branch <tên_branch> (nhánh được copy giống y hệt nhánh gốc)
             - Chuyển sang nhánh mới: git checkout <tên_branch>
             - Vừa tạo, vừa chuyển sang nhánh mới: git checkout -b <tên>
-            - Xoá branch: git branch -D <tên nhánh> (Phải đứng ở nhánh khách trước khi xóa)
+            - Xoá branch: git branch -D <tên nhánh> (Phải đứng ở nhánh khác trước khi xóa)
 
         **Lưu ý chung: luôn pull code về trước khi tạo nhánh mới**
 
